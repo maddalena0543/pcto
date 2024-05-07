@@ -1,0 +1,16 @@
+gcc ex00.c
+    2  ./a.out
+    3  gcc ex00.c
+    4  ./a.out
+    5  gcc ex00.c
+    6  ./a.out
+    7  gcc ex00.c
+    8  ./a.out
+    9  ex00.c
+   10  gcc ex00.c
+   11  ./a.out
+   12  touch ex01.c
+   13  clear
+   14  curl parrot.live
+   15  ls
+   16  ls -la

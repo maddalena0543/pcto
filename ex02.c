@@ -26,5 +26,7 @@ printf("moltiplicazione: %f\n" , c*d);
 
 printf("somma: %lf\n" , e+f);
 printf("differnza: %lf\n" , e-f);
+printf("divisione: %lf\n" , e/f);
+printf("moltiplicazione: %lf\n" , e*f);
 
 }

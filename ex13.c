@@ -4,9 +4,9 @@
 int main()
 {
     int a = 0;
-    while(a<100)
+    while(a<40)
     {
-        printf("%d\n" , a+1 );
+        printf(" char scelta %d\n" , a+1 );
         a=a+1;
     }
 }

@@ -9,6 +9,7 @@ int main()
     int somma1 = 0;
     int somma2 = 0;
     int a =0;
+    char scelta;
 
     while (a == 0)
     {
@@ -226,8 +227,14 @@ int main()
             printf("hai un metodo di studio di gruppo\n");
         }
 
-        printf("vuoi rifare il questionario?\n");
-        scanf(" %d\n"  , somma);
+        printf("vuoi rifare il questionario? \n premi 1 \n");
+        scanf(" %c" , &scelta);
+
+        if(scelta == 1 )
+        {
+            a = 0;
+        }
+
         
     }
 
